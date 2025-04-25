@@ -1,0 +1,25 @@
+内容の一貫性はある
+知識ゼロの人に説明するように書く。
+
+一般的な話をするときは、基本的には複数形。ある一つというのがより適切な場合はa/anでもいい。練習をすることが必要。
+
+勝利スピーチの暗記
+This election ~~から最後まで暗記
+
+Speaking
+最初の主張でなるべく具体的なところまでいう
+自分では、それで終わりと思ったところからもう一歩言い換えをする練習をする。
+
+
+k-anonymunity algorithm
+
+1. set a dataset
+2. determine a scope of rows of the dataset
+3. caliculate spans for each columns of the dataset
+4. caliculate left partitions and right partitions for the columns of the dataset, following the numerical orders of the spans ascendingly.
+5. adopt the is_valid functions to the left and right partitions
+
+partitiondataset関数
+
+元のDatasetの行数分だけイテレーションを回す
+	検索対象（準識別子）に指定したカラムについてSpanを取得していく。
